@@ -22,7 +22,7 @@ pipeline
 	      steps{
        
                 kubernetesDeploy(
-                    configs: 'springboot-lb.yaml',
+                    configs: 'pod.yml',
                     kubeconfigId: 'K8S',
                     enableConfigSubstitution: true
                     )               
